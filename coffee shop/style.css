@@ -1,0 +1,209 @@
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace
+    font-size: 60px;
+
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace
+    font-size: 30px;
+    text-decoration:underline;
+}
+
+h3 {
+    font-family:'Courier New', Courier, monospace
+    font-size: 28px;
+    font-style: italic;
+    text-decoration: underline;
+
+
+}
+
+
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.coffee_bar {
+    border: solid black 4px;
+}
+.cold_brew {
+    border: solid black 4px;
+    
+}
+.latte {
+    border: solid black 4px;
+}
+.espresso {
+    border: solid black 4px;
+}
+.cinnamon_roll {
+    border: solid black 4px;
+}
+.pain_au_chocolat {
+    border: solid black 4px;
+}
+.cookies {
+    border: solid black 4px;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  nav {
+    background-color: #a37676cd;
+    overflow: hidden;
+    height: 50px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid black 2px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  nav a {
+    /* float: left; */
+    /* display: block; */
+    color: white;
+    /* text-align: center; */
+    padding: 14px 20px;
+    /* text-decoration: underline 2px; */
+  }
+
+  nav a:hover {
+    border: solid black 2px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0); */
+  }
+
+  nav::after {
+    /* content: "";
+    clear: both;
+    display: table; */
+  }
+
+  #drinks_images {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* border: solid black; */
+  }
+  
+  #drinks_images img {
+    border: solid black 4px;
+  }
+
+  #pastries_imgs img {
+    border: solid black 4px;
+  }
+
+  #pastries_imgs2 img {
+    border: solid black 4px;
+  }
+
+  #drinks_prices {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+
+  #drinks_names {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #drinks_names2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #drinks_images2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  #drinks_images2 img {
+    border: solid black 4px;
+  }
+  
+  #drinks_prices2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  #drinks_names p {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #drinks_prices p {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #drinks_names2 p {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #drinks_prices2 p {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #cinnamon_roll {
+  }
+
+  #welcome_message p {
+    font-size: 15px;
+  }
+
+  #pastries_names {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  #pastries_imgs {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  #pastries_prices {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  #pastries_names2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  #pastries_imgs2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  #pastries_prices2 {
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+  }
